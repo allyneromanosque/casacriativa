@@ -4,11 +4,21 @@
 
 # Casa Criativa - WorkshopDev 
 
-
 _Aplicativo desenvolvido para registrar idéias criativas para realizar em casa durante a quarentena da pandemia do COVID-19._
 
 _Funcionalidade - colecionar idéias criativas através de um registro (de um site externo) para posteriormente filtrar as atividades registradas por interesse._
 
+<p align="center"> 
+<img src="public/casac1.png">
+</p>
+
+<p align="center"> 
+<img src="public/casac2.png">
+</p>
+
+<p align="center"> 
+<img src="public/casac3.png">
+</p>
 
 # Iniciar 🚀
 
