@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+
+{% set bodyId = "page-idea" %}
+
+
+
+{% block title %}
+    <title>Ideias-Casa Criativa</title>
+{% endblock title %}
+
+{% block content %}
+
+    <header>
+        <a href="/">
+        <img src="/CASACRIATIVA.png" alt="Logo Marca">
+        </a>         
+        
+        <nav>
+            <li><a href="/">Inicio</a></li>
+            <li><a class="button" href="#" onclick="onoff ()">Nova Ideia</a></li>
+
+        </nav>
+
+    </header>
+    
+    
+    <section id="title">
+        <p>em exibição</p>
+        <h1>Ideias</h1>
+    </section>
+
+    <main>
+        <section id="ideas">
+            {%include "all_Ideas.html" %}
+
+        </section>
+    </main>
+
+    <footer>
+        Com <a href="http://www.hemosul.ms.gov.br/criterios-para-a-doacao/" target="_blanck" class="heart">❤</a>  
+        <a href="http://rocketseat.com.br" target="_blanck">Rocketseat</a></p>
+    </footer>
+        
+
+{% endblock %}
