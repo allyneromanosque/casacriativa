@@ -142,7 +142,8 @@ server.post("/", function(req, res){
 })
 
 /* liguei meu servidor na porta 3000 */
-server.listen(3000)
+const port = process.env.PORT || 3000
+server.listen(port)
 
 
 
